@@ -1,0 +1,14 @@
+01 - create_room
+
+0101 = empty data
+
+
+02 - join_room
+
+0201 = empty data
+0202 = invalid room code
+0203 = username already exists in room
+
+03 - validate_user
+0301 = room does not exists
+0302 = user not in room
