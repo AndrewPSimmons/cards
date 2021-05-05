@@ -4,7 +4,7 @@ import React, {useEffect, useState} from "react"
 import {io} from "socket.io-client"
 import "./Gameroom.css"
 
-
+console.log(process.env)
 const invalid_user = (set_in_room, set_data) => {
     set_data({"data": null})
     set_in_room("false")

@@ -1,7 +1,7 @@
 const express = require("express")
 const cors = require("cors")
 const path = require("path")
-const { stringify } = require("querystring")
+console.log("server files is ran")
 const io = require("socket.io")(3002, {
     cors: {
         origin: "http://localhost:3001",
